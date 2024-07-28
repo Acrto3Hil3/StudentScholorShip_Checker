@@ -1,6 +1,6 @@
 # Student Scholarship Management System
 
-![Student Scholarship Management System]![p1](https://github.com/user-attachments/assets/3214deb4-8157-4e0f-92fe-b0a7030dd4a5)
+![p1](https://github.com/user-attachments/assets/3214deb4-8157-4e0f-92fe-b0a7030dd4a5)
 
 ## Table of Contents
 
@@ -17,7 +17,6 @@
 The **Student Scholarship Management System** is a web application designed to manage student scholarships. It allows administrators to upload student data via CSV files, view and manage student details, and ensure efficient scholarship distribution.
 
 ## Features
-- User authentication (Admin login)
 - Upload student data via CSV
 - View student details
 - Search and filter students
@@ -72,13 +71,18 @@ The **Student Scholarship Management System** is a web application designed to m
 - View and manage student details from the dashboard.
 
 ## Screenshots
-![Dashboard](images/dashboard.png)
+![Dashboard] ![p1](https://github.com/user-attachments/assets/3214deb4-8157-4e0f-92fe-b0a7030dd4a5)
 *Admin Dashboard*
 
-![Upload CSV](images/upload.png)
-*CSV Upload Section*
+![Upload CSV] ![p2](https://github.com/user-attachments/assets/2638664f-61b8-464a-9792-073692febb0e)
 
-![Student Details](images/student_details.png)
+![p3](https://github.com/user-attachments/assets/74cf9cdd-f263-4850-819c-316af3aba0c5)
+
+*CSV Upload Section*
+![p4](https://github.com/user-attachments/assets/6683d718-674e-4f96-9042-372a25d78721)
+
+
+![Student Details]
 *Student Details Table*
 
 ## Contributing
