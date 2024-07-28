@@ -65,15 +65,12 @@ The **Student Scholarship Management System** is a web application designed to m
 - Navigate to the login page and enter your credentials.
 
 ### Upload CSV
-- After logging in, use the upload section to submit student data via CSV.
+- Use the upload section to submit student data via CSV.
 
 ### View Student Details
 - View and manage student details from the dashboard.
 
 ## Screenshots
-![Login Page](images/login.png)
-*Login Page*
-
 ![Dashboard](images/dashboard.png)
 *Admin Dashboard*
 
