@@ -1,8 +1,9 @@
 # Student Scholarship Management System
 
-![Student Scholarship Management System](images/banner.png)
+![Student Scholarship Management System]![p1](https://github.com/user-attachments/assets/3214deb4-8157-4e0f-92fe-b0a7030dd4a5)
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
