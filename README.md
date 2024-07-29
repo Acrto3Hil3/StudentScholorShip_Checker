@@ -85,6 +85,11 @@ The **Student Scholarship Management System** is a web application designed to m
 ![Student Details]
 *Student Details Table*
 
+![p1](https://github.com/user-attachments/assets/8b639de4-9f08-4155-9a2a-0b73b1ae7928)
+
+- Student Name
+- Eligibility Status
+
 ## Contributing
 We welcome contributions! Please follow these steps:
 1. Fork the repository
