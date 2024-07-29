@@ -38,12 +38,13 @@ public class StudentService {
 		// try with resources so no need to close the resources br resource
 		try (BufferedReader br = new BufferedReader(new FileReader(csvFilePath))) {
 			String line;
+			br.readLine();
 			while ((line = br.readLine()) != null) {
 
 				// the line comes in the string format so storing into string[] so futher assign
 				// to its respective.
 				String[] values = line.split(",");
-				int rollNumber = Integer.parseInt(values[0]);
+				String rollNumber = values[0];
 				String name = values[1];
 				int science = Integer.parseInt(values[2]);
 				int maths = Integer.parseInt(values[3]);
@@ -76,7 +77,7 @@ public class StudentService {
 	}
 
 	// return the student data through rollNumber
-	public Student getStudentEligibility(int rollNumber) {
+	public Student getStudentEligibility(String rollNumber) {
 		return studentDAO.getStudentByRollNumber(rollNumber);
 	}
 } // class end

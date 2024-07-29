@@ -56,7 +56,7 @@ public class StudentServlet extends HttpServlet {
 		// it takes the rollnumber from input and store in it.
 		String rollNumberParam = request.getParameter("rollNumber");
 		if (rollNumberParam != null) {
-			int rollNumber = Integer.parseInt(rollNumberParam);
+			String rollNumber = rollNumberParam;
 			Student student = null;
 			try {
 				student = studentService.getStudentEligibility(rollNumber);

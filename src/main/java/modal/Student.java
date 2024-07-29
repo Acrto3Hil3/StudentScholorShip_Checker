@@ -3,7 +3,7 @@ package modal;
 // it contains the student object which have the student data and it's properties
 public class Student {
 	// creating all the field vaiables
-	private int rollNumber;
+	private String rollNumber;
 	private String name;
 	private int science;
 	private int maths;
@@ -15,7 +15,8 @@ public class Student {
 		// empty constructor
 	}
 
-	public Student(int rollNumber, String name, int science, int maths, int english, int computer, String eligibility) {
+	public Student(String rollNumber, String name, int science, int maths, int english, int computer,
+			String eligibility) {
 		this.rollNumber = rollNumber;
 		this.name = name;
 		this.science = science;
@@ -25,11 +26,11 @@ public class Student {
 		this.eligibility = eligibility;
 	}
 
-	public int getRollNumber() {
+	public String getRollNumber() {
 		return rollNumber;
 	}
 
-	public void setRollNumber(int rollNumber) {
+	public void setRollNumber(String rollNumber) {
 		this.rollNumber = rollNumber;
 	}
 

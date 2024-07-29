@@ -31,7 +31,7 @@ public class StudentDAO {
 		// resource
 		try (PreparedStatement ps = connection.prepareStatement(query)) {
 			for (Student student : students) {
-				ps.setInt(1, student.getRollNumber());
+				ps.setString(1, student.getRollNumber());
 				ps.setString(2, student.getName());
 				ps.setInt(3, student.getScience());
 				ps.setInt(4, student.getMaths());
@@ -40,7 +40,7 @@ public class StudentDAO {
 				ps.setString(7, student.getEligibility());
 
 				// --- Second query will work from here ---------
-				ps.setInt(8, student.getRollNumber());
+				ps.setString(8, student.getRollNumber());
 				ps.setString(9, student.getName());
 				ps.setInt(10, student.getScience());
 				ps.setInt(11, student.getMaths());
@@ -58,18 +58,18 @@ public class StudentDAO {
 		}
 	}
 
-	public Student getStudentByRollNumber(int rollNumber) {
+	public Student getStudentByRollNumber(String rollNumber) {
 		String query = "SELECT * FROM Students WHERE roll_number = ?";
 
 		// create the modal class oject so we use student fields
 		Student student = null;
 
 		try (PreparedStatement ps = connection.prepareStatement(query)) {
-			ps.setInt(1, rollNumber);
+			ps.setString(1, rollNumber);
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
 				student = new Student();
-				student.setRollNumber(rs.getInt("roll_number"));
+				student.setRollNumber(rs.getString("roll_number"));
 				student.setName(rs.getString("student_name"));
 				student.setScience(rs.getInt("science"));
 				student.setMaths(rs.getInt("maths"));
