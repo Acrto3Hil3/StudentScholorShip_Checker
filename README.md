@@ -13,6 +13,32 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+## Project Structure
+StudentScholorShip/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── controller/
+│   │   │   │   ├── StudentServlet.java
+│   │   │   ├── service/
+│   │   │   │   ├── StudentService.java
+│   │   │   ├── dao/
+│   │   │   │   ├── StudentDAO.java
+│   │   │   ├── model/
+│   │   │   │   ├── Student.java
+│   │   ├── webapp/
+│   │   │   ├── WEB-INF/
+│   │   │   │   ├── web.xml
+│   │   │   ├── index.jsp
+│   │   │   ├── upload.jsp
+│   │   │   ├── result.jsp
+├── test/
+│   ├── java/
+│   │   ├── service/
+│   │   │   ├── StudentServiceTest.java
+
+
+
 ## Introduction
 The **Student Scholarship Management System** is a web application designed to manage student scholarships. It allows administrators to upload student data via CSV files, view and manage student details, and ensure efficient scholarship distribution.
 
