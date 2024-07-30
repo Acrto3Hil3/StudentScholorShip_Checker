@@ -15,27 +15,27 @@
 
 ## Project Structure
 StudentScholorShip/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── controller/
-│   │   │   │   ├── StudentServlet.java
-│   │   │   ├── service/
-│   │   │   │   ├── StudentService.java
-│   │   │   ├── dao/
-│   │   │   │   ├── StudentDAO.java
-│   │   │   ├── model/
-│   │   │   │   ├── Student.java
-│   │   ├── webapp/
-│   │   │   ├── WEB-INF/
-│   │   │   │   ├── web.xml
-│   │   │   ├── index.jsp
-│   │   │   ├── upload.jsp
-│   │   │   ├── result.jsp
-├── test/
-│   ├── java/
-│   │   ├── service/
-│   │   │   ├── StudentServiceTest.java
+- ├── src/
+- │   ├── main/
+- │   │   ├── java/
+- │   │   │   ├── controller/
+- │   │   │   │   ├── StudentServlet.java
+- │   │   │   ├── service/
+- │   │   │   │   ├── StudentService.java
+- │   │   │   ├── dao/
+- │   │   │   │   ├── StudentDAO.java
+- │   │   │   ├── model/
+- │   │   │   │   ├── Student.java
+- │   │   ├── webapp/
+- │   │   │   ├── WEB-INF/
+- │   │   │   │   ├── web.xml
+- │   │   │   ├── index.jsp
+- │   │   │   ├── upload.jsp
+- │   │   │   ├── result.jsp
+- ├── test/
+- │   ├── java/
+- │   │   ├── service/
+- │   │   │   ├── StudentServiceTest.java
 
 
 
